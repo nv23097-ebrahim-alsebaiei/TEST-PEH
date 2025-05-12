@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bug Bounty Quiz</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h2 {
+      color: #333;
+    }
+    fieldset {
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+    legend {
+      font-weight: bold;
+      color: #0055aa;
+    }
+    label {
+      display: block;
+      margin-left: 20px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #0055aa;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Bug Bounty MCQ Quiz</h1>
+  <form action="#" method="post">
+
+    <!-- Section: Vulnerability Discovery Techniques -->
+    <fieldset>
+      <legend>Vulnerability Discovery Techniques</legend>
+      <p>1. What is the first phase in a bug bounty engagement?</p>
+      <label><input type="radio" name="q1" value="A"> Exploitation</label>
+      <label><input type="radio" name="q1" value="B"> Reporting</label>
+      <label><input type="radio" name="q1" value="C"> Reconnaissance</label>
+      <label><input type="radio" name="q1" value="D"> Explaining</label>
+
+      <p>2. Which tool is commonly used for subdomain enumeration?</p>
+      <label><input type="radio" name="q2" value="A"> Nmap</label>
+      <label><input type="radio" name="q2" value="B"> Amass</label>
+      <label><input type="radio" name="q2" value="C"> sqlmap</label>
+      <label><input type="radio" name="q2" value="D"> Nikto</label>
+
+      <p>3. What is "content discovery" in recon?</p>
+      <label><input type="radio" name="q3" value="A"> Finding users</label>
+      <label><input type="radio" name="q3" value="B"> Scanning DNS</label>
+      <label><input type="radio" name="q3" value="C"> Identifying hidden files and directories</label>
+      <label><input type="radio" name="q3" value="D"> Exploiting APIs</label>
+
+      <p>4. Which file might contain useful recon data?</p>
+      <label><input type="radio" name="q4" value="A"> sitemap.xml</label>
+      <label><input type="radio" name="q4" value="B"> robots.exe</label>
+      <label><input type="radio" name="q4" value="C"> image.png</label>
+      <label><input type="radio" name="q4" value="D"> style.css</label>
+
+      <p>5. Passive recon avoids:</p>
+      <label><input type="radio" name="q5" value="A"> Social engineering</label>
+      <label><input type="radio" name="q5" value="B"> Direct interaction with the target</label>
+      <label><input type="radio" name="q5" value="C"> Collecting OSINT</label>
+      <label><input type="radio" name="q5" value="D"> Subdomain brute-force</label>
+
+      <p>6. What is a valid reason to use a wordlist in recon?</p>
+      <label><input type="radio" name="q6" value="A"> Guess login credentials</label>
+      <label><input type="radio" name="q6" value="B"> Bypass firewalls</label>
+      <label><input type="radio" name="q6" value="C"> Fuzz for parameters and directories</label>
+      <label><input type="radio" name="q6" value="D"> Generate tokens</label>
+    </fieldset>
+
+    <!-- Add more fieldsets here for Broken Authentication, SQL Injection, XSS, CSRF, SSRF, LFI/RFI, IDOR, and Directory Traversal -->
+    <!-- I can generate the remaining sections as well, just let me know if you'd like that added now. -->
+
+    <input type="submit" value="Submit Quiz">
+
+  </form>
+
+</body>
+</html>
